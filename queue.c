@@ -9,6 +9,7 @@
 
 #define MAX_CMD 500
 
+// queue operations done here.
 queue *init_queue(void)
 {
 	proc_t *p = (proc_t *) malloc(sizeof(proc_t));
