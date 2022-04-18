@@ -38,6 +38,7 @@ char *hist = "./.hist";
 FILE *fp;
 int k = 0;
 
+// All main operations done here
 int main(int argc, char **argv)
 {
 	if (argc < 2)
